@@ -369,3 +369,140 @@ margin:8px 0;
 font-size:14px;
 
 }
+/* =========================
+   Premium Menu Grid
+   ========================= */
+
+   .menu-grid{
+       display:grid;
+           grid-template-columns:repeat(2,1fr);
+               gap:16px;
+                   padding:20px;
+                       margin:15px 0;
+                       }
+
+                       .menu-card{
+                           background:#ffffff;
+                               border-radius:18px;
+                                   padding:22px 15px;
+                                       text-align:center;
+                                           text-decoration:none;
+                                               color:#222;
+                                                   box-shadow:0 6px 18px rgba(0,0,0,.10);
+                                                       transition:all .3s ease;
+                                                           border:1px solid #ececec;
+                                                           }
+
+                                                           .menu-card:hover{
+                                                               transform:translateY(-5px);
+                                                                   background:#147a33;
+                                                                       color:#fff;
+                                                                           box-shadow:0 10px 25px rgba(0,0,0,.18);
+                                                                           }
+
+                                                                           .menu-icon{
+                                                                               font-size:34px;
+                                                                                   margin-bottom:10px;
+                                                                                   }
+
+                                                                                   .menu-title{
+                                                                                       font-size:16px;
+                                                                                           font-weight:700;
+                                                                                               line-height:1.4;
+                                                                                               }
+                                                                                               /* ===========================
+                                                                                                  PREMIUM HERO SECTION
+                                                                                                  =========================== */
+
+                                                                                                  .hero{
+                                                                                                      position:relative;
+                                                                                                          overflow:hidden;
+                                                                                                              padding:70px 20px;
+                                                                                                                  text-align:center;
+                                                                                                                      color:#fff;
+                                                                                                                          background:linear-gradient(rgba(0,90,40,.65),rgba(0,90,40,.65)),
+                                                                                                                              url("../assets/images/village.jpg");
+                                                                                                                                  background-size:cover;
+                                                                                                                                      background-position:center;
+                                                                                                                                          border-radius:0 0 25px 25px;
+                                                                                                                                          }
+
+                                                                                                                                          .hero-overlay{
+                                                                                                                                              position:absolute;
+                                                                                                                                                  inset:0;
+                                                                                                                                                      background:rgba(0,0,0,.15);
+                                                                                                                                                      }
+
+                                                                                                                                                      .hero-content{
+                                                                                                                                                          position:relative;
+                                                                                                                                                              z-index:2;
+                                                                                                                                                                  max-width:700px;
+                                                                                                                                                                      margin:auto;
+                                                                                                                                                                      }
+
+                                                                                                                                                                      .hero-badge{
+                                                                                                                                                                          display:inline-block;
+                                                                                                                                                                              background:#ffffff;
+                                                                                                                                                                                  color:#137333;
+                                                                                                                                                                                      padding:8px 18px;
+                                                                                                                                                                                          border-radius:30px;
+                                                                                                                                                                                              font-weight:700;
+                                                                                                                                                                                                  font-size:15px;
+                                                                                                                                                                                                      margin-bottom:18px;
+                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                      .hero h1{
+                                                                                                                                                                                                          font-size:34px;
+                                                                                                                                                                                                              line-height:1.35;
+                                                                                                                                                                                                                  font-weight:800;
+                                                                                                                                                                                                                      margin-bottom:18px;
+                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                      .hero-slogan{
+                                                                                                                                                                                                                          font-size:20px;
+                                                                                                                                                                                                                              font-weight:700;
+                                                                                                                                                                                                                                  margin-bottom:16px;
+                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                  .hero-location{
+                                                                                                                                                                                                                                      font-size:16px;
+                                                                                                                                                                                                                                          margin-bottom:28px;
+                                                                                                                                                                                                                                              opacity:.95;
+                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                              .main-btn{
+                                                                                                                                                                                                                                                  display:inline-block;
+                                                                                                                                                                                                                                                      background:#fff;
+                                                                                                                                                                                                                                                          color:#137333;
+                                                                                                                                                                                                                                                              text-decoration:none;
+                                                                                                                                                                                                                                                                  padding:14px 34px;
+                                                                                                                                                                                                                                                                      border-radius:40px;
+                                                                                                                                                                                                                                                                          font-size:18px;
+                                                                                                                                                                                                                                                                              font-weight:700;
+                                                                                                                                                                                                                                                                                  transition:.3s;
+                                                                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                                                                  .main-btn:hover{
+                                                                                                                                                                                                                                                                                      transform:translateY(-3px);
+                                                                                                                                                                                                                                                                                          box-shadow:0 10px 25px rgba(0,0,0,.25);
+                                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                                          @media(max-width:768px){
+
+                                                                                                                                                                                                                                                                                          .hero{
+                                                                                                                                                                                                                                                                                              padding:60px 18px;
+                                                                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                                                                              .hero h1{
+                                                                                                                                                                                                                                                                                                  font-size:28px;
+                                                                                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                                                                                  .hero-slogan{
+                                                                                                                                                                                                                                                                                                      font-size:17px;
+                                                                                                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                                                                                                      .hero-location{
+                                                                                                                                                                                                                                                                                                          font-size:14px;
+                                                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                                                          }
