@@ -20,3 +20,14 @@ if (complaintCount) complaintCount.innerText = "0";
 if (newsCount) newsCount.innerText = "0";
 if (pollCount) pollCount.innerText = "0";
 if (galleryCount) galleryCount.innerText = "0";
+// ===== Hero Banner Auto Slider =====
+const slides = document.querySelectorAll(".slides img");
+let currentSlide = 0;
+
+if (slides.length > 0) {
+  setInterval(() => {
+      slides[currentSlide].classList.remove("active");
+          currentSlide = (currentSlide + 1) % slides.length;
+              slides[currentSlide].classList.add("active");
+                }, 5000);
+                }
